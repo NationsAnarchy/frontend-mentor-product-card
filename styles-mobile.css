@@ -1,25 +1,3 @@
-@import url(https://fonts.google.com/specimen/Montserrat);
-@import url(https://fonts.google.com/specimen/Fraunces);
-
-:root {
-    --cream: hsl(30, 38%, 92%);
-    --dark-cyan: hsl(158, 36%, 37%);
-    --very-dark-blue: hsl(212, 21%, 14%);
-    --dark-grayish-blue: hsl(228, 12%, 48%);
-    --white: hsl(0, 0%, 100%);
-    background-color: var(--cream);
-}
-
-.attribution {
-    font-size: 12px;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.attribution a {
-    color: hsl(228, 45%, 44%);
-}
-
 .product-image-desktop {
     display: none;
 }
@@ -37,17 +15,9 @@
 }
 
 .card {
-    max-width: 700px;
-    display: flex;
     flex-direction: column;
     padding-right: 0;
     padding-bottom: 20px;
-    background-color: var(--white);
-    border-radius: 15px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
 
 .product-info {
