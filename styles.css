@@ -20,16 +20,25 @@
     color: hsl(228, 45%, 44%);
 }
 
-.product-image {
+.product-image-desktop {
     border-radius: 15px 0 0 15px;
     max-width: 350px;
     padding-right: 20px;
+}
+
+.product-image-mobile {
+    display: none;
 }
 
 .container {
     display: flex;
     min-height: 100vh;
     padding: 10px
+}
+
+.product-info {
+    width: 350px;
+    padding: 25px;
 }
 
 .card {
@@ -52,12 +61,17 @@
 
 .product-name {
     font-family: 'Fraunces', serif;
-    max-width: 250px;
+    max-width: 200px;
+    font-weight: 700;
+    font-size: 2.25rem;
 }
 
 .description {
     font-family: 'Montserrat', sans-serif;
     color: var(--dark-grayish-blue);
+    font-size: 1.125rem;
+    max-width: 350px;
+    text-align: start;
 }
 
 .price-container {

@@ -11,13 +11,15 @@
   <title>Frontend Mentor | Product preview card component</title>
 
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" media="screen and (max-width: 800px)" href="styles-mobile.css">
 </head>
 
 <body>
   <div class="container">
     <main>
       <div class="card">
-        <img class="product-image" alt="Product image" src="/images/image-product-desktop.jpg">
+        <img class="product-image-desktop" alt="Product image" src="/images/image-product-desktop.jpg">
+        <img class="product-image-mobile" alt="Product image mobile" src="/images/image-product-mobile.jpg">
         <div class="product-info">
           <h3 class="product-type">Perfume</h3>
 
@@ -31,7 +33,7 @@
             <h1 class="sales-price">$149.99</h1>
             <p class="normal-price">$169.99</p>
           </div>
-          <button class="cart-button" type="button">
+          <button class="cart-button" role="button">
             <img alt="Cart icon" src="/images/icon-cart.svg"> Add to cart
           </button>
         </div>
@@ -42,8 +44,8 @@
     <div class="attribution">
       Challenge by <a rel="noopener" href="http://https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend
         Mentor</a>.
-      Coded by <a rel="noopener" href="https://www.frontendmentor.io/profile/NationsAnarchy" target="_blank">Your Name
-        Here</a>.
+      Coded by <a rel="noopener" href="https://www.frontendmentor.io/profile/NationsAnarchy" target="_blank">Phúc
+        Nguyễn</a>.
     </div>
   </footer>
 </body>
